@@ -19,8 +19,18 @@
     font-weight: bold;
 }
 
+.font_free_premium{
+    font-family: ATTFont;
+    font-size: 20px
+}
+
 .font2{
     font-family: ATTFont2;
+}
+
+.decorate_caption{
+    text-decoration: underline;
+    text-decoration-color: #0057B8;
 }
 
 .navbar-custom{
@@ -37,14 +47,41 @@ footer{
     font-family: ATTFont
 }
 
+.where_DS{
+    background: linear-gradient(to right, #0079B1, #009FDB, #00C9FF);
+    padding: 20px;
+}
+
+.where_DS_font{
+    font-family: ATTFont;
+    font-weight: bold;
+    color: white
+}
+
 
 .more_about_button{
-    background-color: #009FDB;
+    background: linear-gradient(to right, #0079B1, #009FDB, #00C9FF);
     color: white;
     border-radius: 30px;
     border:none;
-    padding: 10px
+    padding: 18px;
+    font-family: ATTFont2;
 }
+
+.where_button{
+    background: linear-gradient(to right, #0079B1, #009FDB, #00C9FF);
+    color: white;
+    border-radius: 40px;
+    border:none;
+    padding: 18px;
+    font-family: ATTFont2;
+} 
+
+.more_about_button:hover{
+    transform: scale(1.08)}
+
+.where_button:hover{
+    transform: scale(1.08)}
 
 .img_class{
     max-width: 100%;
@@ -108,6 +145,13 @@ footer{
     -webkit-background-clip: text;
 }
 
+
+.gradient_icons_free_premium{
+    color: transparent;
+    background: linear-gradient(to top, #FF585D, #FFB000);
+    -webkit-background-clip: text;
+} 
+
 .gradient_text{
     color: transparent;
     background: linear-gradient(to left, #0057B8, #AF29BB);
@@ -121,5 +165,10 @@ footer{
 
 h3{
     display: inline;
-    padding: 5px
+    padding: 3px
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    filter: invert(100%)
 }
